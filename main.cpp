@@ -31,7 +31,7 @@ int main()
     Pixel px = project(cam, pw);
 
     // 6. 输出
-    cout << "像素坐标: (" << px.u << ", " << px.v << ")" << endl;
+    cout << "重投影坐标: (" << px.u << ", " << px.v << ")" << endl;
 
     return 0;
 }
